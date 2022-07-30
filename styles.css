@@ -5,10 +5,10 @@
 }
 body{
     width:100%;
-    height: 100px;
+    height: 100vh;
     background-image: linear-gradient(to right, rgb(2, 2, 24), #095477);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position:center;
 }
 #search-form{
