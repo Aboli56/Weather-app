@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100px;
+    background-image: linear-gradient(to right, rgb(2, 2, 24), #095477);
+}
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+#temp{
+    text-align: center;
+}
+#temp #temp-value{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+#min-max{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 250px;
+}
+#location{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+#climate{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(4, 46, 80);
+    font-weight: bold;
+}
+#temp-icon{
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+main{
+    padding: 20px;
+    margin-top:15px ;
+    width: 370px;
+    height: 450px;
+    background-color: rgb(101, 128, 127);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(82, 82, 105);
+}
+#search-input{
+    width: 260px;
+    height: 40px;
+    border-bottom: 3px solid rgb(216, 110, 11);
+    outline: none;
+    background-color:transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 26px;
+    color: white;
+}
+#date{
+    text-align: center;
+    font-size: 1.8rem;
+}
+#search-button{
+    width: 90px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 19px;
+    background-color: rgb(238, 104, 15);
+    border: 2px solid rgb(224, 109, 43);
+    border-radius: 5px;
+    color: black;
+}
+#search-button:hover{
+    color: #ffffff;
+    background: #ff6768;
+    border-color: #ff6768;
+    transition: all 0.4s ease 0s;
+}
