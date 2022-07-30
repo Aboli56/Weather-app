@@ -48,7 +48,7 @@ function showWeatherReport(weather){
    }else if(weather.weather[0].main=="Mist"){
     img.src="climate-img/images.png";
    }else if(weather.weather[0].main=="Clear"){
-    img.src="climate-img/sun.png";
+    img.src="climate-img/clear.png";
    }else if(weather.weather[0].main=="Storm"){
     img.src="climate-img/storm.svg";
    }
