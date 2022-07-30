@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    width:100%;
     height: 100px;
     background-image: linear-gradient(to right, rgb(2, 2, 24), #095477);
 }
