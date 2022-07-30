@@ -9,6 +9,7 @@ body{
     background-image: linear-gradient(to right, rgb(2, 2, 24), #095477);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position:center;
 }
 #search-form{
     display: flex;
