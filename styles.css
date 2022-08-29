@@ -6,7 +6,7 @@
 body{
     width:100%;
     height: 90vh;
-    background-image: linear-gradient(to right, rgb(2, 2, 24), #003248);
+    background-image: linear-gradient(to right, rgb(2, 2, 24), #013044);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
@@ -59,7 +59,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 2px 4px 5px rgb(82, 82, 105);
+/*     box-shadow: 2px 4px 5px rgb(82, 82, 105); */
 }
 #search-input{
     width: 260px;
