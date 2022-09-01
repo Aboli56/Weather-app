@@ -82,6 +82,7 @@ main{
     height: 40px;
     margin-left: 20px;
     font-size: 19px;
+    cursor:pointer;
     background-color: rgb(238, 104, 15);
     border: 2px solid rgb(224, 109, 43);
     border-radius: 5px;
