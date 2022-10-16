@@ -8,9 +8,28 @@ let searchInputBox = document.getElementById("search-input");
 let searchButton = document.getElementById("search-button");
 let img =document.getElementById("temp-icon");
 let city = document.getElementById("location");
+let date = document.getElementById("date");
+let min_max = document.getElementById("min-max");
+let temp = document.getElementById("temp-value");
+let temp_unit = document.getElementById("temp-unit");
+let weatherType = document.getElementById("climate");
 searchButton.addEventListener("click", (e)=>{
     e.preventDefault();
-    getWeatherReport(searchInputBox.value);
+    city.innerText= "Loading.....";
+        getWeatherReport(searchInputBox.value);
+       
+        setTimeout(()=>{
+            if(city.innerText==="Loading....."){
+            date.innerText="Oopps!!City not Found...";
+            city.innerText="";
+            min_max.innerText="";
+            temp.innerText="";
+            weatherType.innerText="";
+            temp_unit.innerText="";
+            img.src="https://t3.ftcdn.net/jpg/02/60/08/54/240_F_260085400_jmT8Hk8UcVjbsgvOLj0b14v0BxGk9Qdi.jpg";
+            }
+        },1000)
+       
     searchInputBox.value = '';
 })
 function getWeatherReport(city){
@@ -50,7 +69,7 @@ function showWeatherReport(weather){
    }else if(weather.weather[0].main=="Clear"){
     img.src="climate-img/download.jpg";
    }else if(weather.weather[0].main=="Storm"){
-    img.src="climate-img/storm.svg";
+    img.src="climate-img/storm.jpg";
    }
 }
 function dateManage(dateArg){
@@ -62,4 +81,5 @@ function dateManage(dateArg){
   let day = days[dateArg.getDay()];
   return `${date} ${month} (${day}) ${year}`
 }
+
 
