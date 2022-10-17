@@ -20,9 +20,9 @@ searchButton.addEventListener("click", (e)=>{
        
         setTimeout(()=>{
             if(city.innerText==="Loading....."){
-            date.innerText="Oopps!!City not Found...";
+            min_max.innerText="Oopps!!City not Found...";
             city.innerText="";
-            min_max.innerText="";
+            date.innerText="";
             temp.innerText="";
             weatherType.innerText="";
             temp_unit.innerText="";
