@@ -49,7 +49,7 @@ body{
 main{
     padding: 20px;
     margin-top:15px ;
-    width: 370px;
+    width: 340px;
     height: 450px;
     background-color: rgb(151, 182, 181);
     display: block;
@@ -58,7 +58,7 @@ main{
     border-radius: 5px;
 }
 #search-input{
-    width: 260px;
+    width: 240px;
     height: 40px;
     border-bottom: 3px solid rgb(216, 110, 11);
     outline: none;
@@ -90,10 +90,10 @@ main{
     transition: all 0.4s ease 0s;
 }
 @media (max-width:280px) {
-    main{
+   main{
     width: 230px;
-    height: 350px;
-    }
+    height: 450px;
+   }
     #search-button{
         width: 60px;
         height: 30px;
