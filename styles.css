@@ -68,6 +68,7 @@ main{
     border-left: none;
     border-right: none;
     font-size: 26px;
+    text-align:center;
     color: white;
 }
 #date{
