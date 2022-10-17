@@ -83,6 +83,7 @@ main{
     border: 2px solid rgb(224, 109, 43);
     border-radius: 5px;
     color: black;
+    cursor :pointer;
 }
 #search-button:hover{
     color: #ffffff;
