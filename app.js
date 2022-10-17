@@ -44,7 +44,7 @@ function showWeatherReport(weather){
    let city = document.getElementById("location");
    city.innerText =`${weather.name} , ${weather.sys.country}`;
    let temp = document.getElementById("temp-value");
-   temp.innerHTML =`${Math.round(weather.main.temp)}`;
+   temp.innerHTML =`${Math.round(weather.main.temp)}&deg;c`;
    let min_max = document.getElementById("min-max");
    min_max.innerHTML =`${Math.floor(weather.main.temp_min)}&deg;c (min) / ${Math.ceil(weather.main.temp_max)}&deg;c (max)`;
    let weatherType = document.getElementById("climate");
