@@ -26,7 +26,7 @@ searchButton.addEventListener("click", (e)=>{
             temp.innerText="";
             weatherType.innerText="";
             temp_unit.innerText="";
-            img.src="https://t3.ftcdn.net/jpg/02/60/08/54/240_F_260085400_jmT8Hk8UcVjbsgvOLj0b14v0BxGk9Qdi.jpg";
+            img.src="";
             }
         },1000)
        
